@@ -151,6 +151,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SP_Cancelar_PedidoController.cs" />
+    <Compile Include="Controllers\SP_InsertarController.cs" />
+    <Compile Include="Controllers\SP_ModificarController.cs" />
+    <Compile Include="Controllers\SP_Nuevo_PedidoController.cs" />
+    <Compile Include="Controllers\SP_OrdenxEstadoController.cs" />
+    <Compile Include="Controllers\SP_VentasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -366,6 +372,12 @@
     <Content Include="Views\Promociones\Details.cshtml" />
     <Content Include="Views\Promociones\Edit.cshtml" />
     <Content Include="Views\Promociones\Index.cshtml" />
+    <Content Include="Views\SP_Insertar\SP_Insertar_Producto.cshtml" />
+    <Content Include="Views\SP_Ventas\SP_Ventas_Rango.cshtml" />
+    <Content Include="Views\SP_Nuevo_Pedido\SP_Alta_Pedido.cshtml" />
+    <Content Include="Views\SP_OrdenxEstado\SP_Orden_Estado.cshtml" />
+    <Content Include="Views\SP_Cancelar_Pedido\SP_Cancelar_Pedido.cshtml" />
+    <Content Include="Views\SP_Modificar\SP_Modificar_Ingrediente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
